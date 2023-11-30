@@ -18,7 +18,6 @@ def function_name():
     # < depending on whether certain conditions are met.
 # < These statements control the flow of how our code is executed
 
-
 def conditionals():
     x = 12
     if x > 50:
@@ -41,7 +40,6 @@ def conditionals():
     # nothing happens, because the statement is false
 # conditionals()
 
-
 def conditions_with_params(num1=0, num2=0):
     print(f"input param num1: {num1}")
     print(f"input param num2: {num2}")
@@ -62,15 +60,12 @@ def conditions_with_params(num1=0, num2=0):
 # < Element values can be anything - even more composite types
 # < 0 base index
 
-
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 words = ["this", "is", "a", "list", "of", "strings"]
 mash_up = ['string', 4.65, 3, True, "another_string", numbers]
 #    0      1    2      3         4              5
 
 # > Accessing Values:
-
-
 def accessing_list_values():
     # * print(list_name[index])
     print(mash_up[3])
@@ -119,7 +114,6 @@ def accessing_list_values():
 # < Lists are mutable, while tuples are immutable (cannot be changed once created).
 # < Lists are defined with square brackets, and tuples use parentheses.
 
-
 def tuple_stuff():
     my_tuple = ('this is a tuple', True, [1, 2, 3, 4, 5])
     print(my_tuple)
@@ -136,13 +130,10 @@ def tuple_stuff():
 # < Python supports two main types of loops: `for` loops and `while` loops
 
 # > FOR IN
-
-
 def for_in():
     for unicorn in mash_up:
         print(unicorn)
 # for_in()
-
 
 def nested_for_in():
     for unicorn in words:
@@ -152,8 +143,7 @@ def nested_for_in():
 # nested_for_in()
 
 # > FOR IN RANGE
-
-
+# < ITERATOR, START, STOP/BOUNDARY, STEP (DEFINED HORIZONTALY)
 def in_range():
     print(numbers)
     for i in range(0, len(numbers), 1):
@@ -162,8 +152,7 @@ def in_range():
 # in_range()
 
 # > WHILE
-
-
+# < ITERATOR, START, STOP/BOUNDARY, STEP (DEFINED VERTICALLY)
 def while_loops():
     i = 10
     while (i <= 20):
