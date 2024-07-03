@@ -9,8 +9,11 @@ to trigger the subconscious tracking of indentation
 ### Code blocks/Functions 
 [Python Syntax](https://login.codingdojo.com/m/506/12457/87299)
 COLON:
+
 |----|COLON : 
+
 |----|----|and indentation
+
 Required For
 - functions
 - if, elif, else (conditional statements)
